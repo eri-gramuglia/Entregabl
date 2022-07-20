@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 + img {
+  height: 70%;
+  border: 4px;
+  border-style: solid;
+  border-color: green;
+}
+div > h2 {
+  color: darkolivegreen;
+  font-style: oblique;
+  text-align: center;
+}
+.padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+}
+.beneficios > p {
+  color: blueviolet;
+  font-style: italic;
+  text-align: justify;
+}
+ul > li {
+  list-style-type: square;
+  color: crimson;
+  font-style: oblique;
+  text-align: left;
+}
+div + p {
+  text-align: center;
+  color: darkblue;
+  font-size: 1.5em;
+}
+.mantenimiento ~ p {
+  text-align: center;
+  color: coral;
+  font-size: 3em;
+}
